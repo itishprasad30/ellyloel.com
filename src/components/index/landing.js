@@ -6,6 +6,7 @@ import styled from 'styled-components';
 import Nav from '../nav/nav';
 import SVGGraphic from '../../images/svg/sitting-with-laptop.svg';
 import CTAButton from '../cta-button';
+import ThreeLazy from '../three/three-lazy';
 
 // STYLES /////////////////////////////////////////////////////////////////////
 
@@ -112,7 +113,8 @@ const Landing = () => {
       <Nav siteTitle="<e//y>" />
       <Content>
         <HeroText />
-        <SVGGraphic />
+        {/* <SVGGraphic /> */}
+        <ThreeLazy />
         <CTAButton link="/#projects" />
       </Content>
     </LandingSection>
