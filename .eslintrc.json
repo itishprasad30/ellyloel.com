@@ -2,8 +2,14 @@
   "globals": {
     "__PATH_PREFIX__": true
   },
-  "extends": ["eslint:recommended", "plugin:react/recommended", "react-app"],
-  "plugins": ["react", "prettier"],
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "react-app",
+    "plugin:jsx-a11y/recommended",
+    "plugin:storybook/recommended"
+  ],
+  "plugins": ["react", "prettier", "jsx-a11y"],
   "parser": "babel-eslint",
   "rules": {
     "prettier/prettier": "error",
